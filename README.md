@@ -11,7 +11,7 @@ To resume training from checkpoint, use --resume
 Detailed options (argument lists) are explained in options.py
 <br/>
 
-Codes are segregated in following files:
+Codes are segregated in following files: <br/>
 **main.py**: main code, training and testing <br/>
 **options.py**: Argument parsing <br/>
 **defineModelArchitecture.py**: defines the network architecture (vgg16/vgg19/resnet18/resnet34/resnet50/resnet101/mobilenet_v2) <br/>
