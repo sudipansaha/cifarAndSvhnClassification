@@ -1,0 +1,11 @@
+An example usage:
+python main.py --dataset cifar100 --trainingBatchSize 128 --lr 0.1,0.05,0.01 --epochs 2,1,1 --model resnet18
+Observe that training can be performed with different learning rates. They are passed as comma separated values with argument lr.
+Epochs corresponding to each lr are also passed as comma separated values with argument epochs.
+To resume training from checkpoint, use --resume
+
+Detailed options (argument lists) are explained in options.py
+
+main.py: main code, training and testing
+defineModelArchitecture.py: defines the network architecture (vgg16/vgg19/resnet18/resnet34/resnet50/resnet101/mobilenet_v2)
+utils.py: Some useful functions, e.g., downloading and processing dataset, definition of loss function, fetching checkpoint file (in case training is resumed) 
