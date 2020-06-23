@@ -3,6 +3,7 @@
 An example usage: <br/>
 python main.py --dataset cifar100 --trainingBatchSize 128 --lr 0.1,0.05,0.01 --epochs 2,1,1 --model resnet18
 <br/>
+<br/>
 Observe that training can be performed with different learning rates. They are passed as comma separated values with argument lr.
 Epochs corresponding to each lr are also passed as comma separated values with argument epochs.
 <br/>
